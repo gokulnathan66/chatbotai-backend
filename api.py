@@ -6,7 +6,7 @@ from pymongo import MongoClient
 from dotenv import load_dotenv
 import os
 from flask_cors import CORS
-
+GEMENI_API_KEY=AIzaSyBNw-incZieEgwAySBDZtkV54zgL3U13Oo
 load_dotenv()
 app = Flask(__name__)
 api=os.getenv('GEMENI_API_KEY')
