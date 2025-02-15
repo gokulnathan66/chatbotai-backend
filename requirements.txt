@@ -3,3 +3,5 @@ flask-cors
 pymongo
 google-generativeai
 python-dotenv
+gunicorn
+waitress
